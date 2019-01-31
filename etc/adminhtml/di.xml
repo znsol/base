@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ */
+
+/**
+ ** @category   Innovadel Technologies Ltd.
+ * @package    Znsol_Wishlist
+ * @subpackage Block
+ ** @copyright  Copyright (c) 2019 Innovadel Technologies (http://www.innovadeltech.com)
+ * @version    ${release.version}
+ * @link       http://www.innovadeltech.com/
+ * @author     Innovadel Technologies <support@innovadeltech.com>
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+<!--    <type name="Magento\AdminNotification\Block\Grid\Renderer\Actions">
+        <plugin name="Znsol_Base::show-unsubscribe-link"
+                type="Znsol\Base\Plugin\AdminNotification\Block\Grid\Renderer\Actions"/>
+
+    </type>
+
+    <type name="Magento\AdminNotification\Block\Grid\Renderer\Notice">
+        <plugin name="Znsol_Base::add-amasty-class"
+                type="Znsol\Base\Plugin\AdminNotification\Block\Grid\Renderer\Notice"/>
+    </type>
+
+    <type name="Magento\AdminNotification\Block\ToolbarEntry">
+        <plugin name="Znsol_Base::add-amasty-class-logo"
+                type="Znsol\Base\Plugin\AdminNotification\Block\ToolbarEntry"/>
+    </type>
+
+    <type name="Magento\Config\Block\System\Config\Form\Field">
+        <plugin name="Znsol_Base::replace-image-path"
+                type="Znsol\Base\Plugin\Config\Block\System\Config\Form\Field"/>
+    </type>
+
+    <type name="Magento\Backend\Block\Widget\Form\Element\Dependence">
+        <plugin name="Znsol_Base::fix-dependence"
+                type="Znsol\Base\Plugin\Adminhtml\Block\Widget\Form\Element\Dependence" />
+    </type>
+
+    <type name="Magento\Backend\Block\Menu">
+        <plugin name="Znsol_Base:menu"
+                type="Znsol\Base\Plugin\Backend\Block\Menu" />
+    </type>
+
+    <type name="Magento\Backend\Model\Menu\Item">
+        <plugin name="Znsol_Base:correct-market-url"
+                type="Znsol\Base\Plugin\Backend\Model\Menu\Item" />
+    </type>
+
+    <type name="Magento\Backend\Model\Menu\Builder">
+        <plugin name="Znsol_Base::menu_builder" type="Znsol\Base\Plugin\Backend\Model\Menu\Builder" />
+    </type>-->
+</config>

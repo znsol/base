@@ -1,0 +1,108 @@
+.config-nav-block.amasty-tab strong:before {
+    background: url(../images/logo.png) no-repeat;
+    width: 16px;
+    height: 19px;
+    content: '';
+    display: inline-block;
+    margin-right: 12px;
+    vertical-align: bottom;
+}
+
+.admin__menu [data-ui-id^="menu-amasty-"] .submenu-group-title span:before,
+.admin__menu [data-ui-id^="menu-magento-"] [data-ui-id^="menu-magento-"] [data-ui-id^="menu-amasty-"] span:before {
+    background: url(../images/logo-menu.png) no-repeat;
+    width: 16px;
+    height: 19px;
+    content: '';
+    display: inline-block;
+    margin-right: 12px;
+    vertical-align: top;
+}
+
+#amasty_base_extensions table td.value,
+#amasty_base_information table td.value {
+    vertical-align: bottom;
+}
+
+.ambase-grid-message {
+    padding-left: 58px;
+    min-height: 53px;
+    background: url(../images/logo_m_table.png) no-repeat;
+}
+
+.ambase-grid-message.amasty-grid-logo {
+    background: url(../images/logo_table.png) no-repeat;
+}
+
+.admin__action-dropdown-menu .notifications-entry:not(.notifications-entry-last) {
+    padding-left: 37px;
+    background: url(../images/logo_m_popup.png) no-repeat 5px 7px;
+}
+
+.admin__action-dropdown-menu .notifications-entry[data-ambase-logo="1"] {
+    background: url(../images/logo_popup.png) no-repeat 5px 7px;
+}
+
+/* main amasty menu start*/
+#menu-menuznsol-base-menu .submenu .level-0 > a:before,
+#menu-menuznsol-base-menu .level-0:first-child > a:after {
+    content: '';
+    display: none;
+}
+
+#menu-menuznsol-base-menu .submenu .level-0 > a {
+    display: block;
+    width: 99%;
+    min-height: 0;
+    margin: .7rem 0;
+    padding: 1.25rem 1rem 1.25rem 2rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: left;
+    color: #a79d95;
+    text-transform: none;
+}
+
+#menu-menuznsol-base-menu .submenu .level-0 > a:hover {
+    background-color: #524d49;
+}
+
+#menu-menuznsol-base-menu .submenu .column .parent {
+    margin-bottom: 0;
+}
+
+#menu-menuznsol-base-menu .submenu .parent {
+    margin-bottom: 0.5rem;
+}
+
+#menu-menuznsol-base-menu .item-container .submenu {
+    transform: none;
+    opacity: 0;
+    transition-property: opacity;
+}
+
+#menu-menuznsol-base-menu .item-container._show .submenu {
+    opacity: 1;
+}
+
+#menu-menuznsol-base-menu > a:before {
+    content: '';
+    background: url(../images/logo.png) 27px no-repeat;
+    background-size: contain;
+}
+
+#menu-menuznsol-base-menu > a:hover:before,
+#menu-menuznsol-base-menu._show > a:before {
+    background: url(../images/logo_hover.png) 27px no-repeat;
+    background-size: contain;
+}
+
+.admin__menu .level-0 > .submenu .submenu {
+    min-height: 100%;
+    width: 300px;
+}
+
+.admin__menu .submenu .submenu .submenu-title {
+    height: 60px;
+}
+/* main amasty menu end*/
